@@ -1,6 +1,5 @@
 // Rocksolid Micro4k
 
-
 StepSize
     RotaryWidgetClass   0.003
 StepSizeEnd
@@ -8,9 +7,8 @@ StepSizeEnd
 AccelerationValues
     RotaryWidgetClass   Dec 7f     7e    7d    	7c    7b    7a    79	78	77	76	75	74	73	72	70
     RotaryWidgetClass   Inc 01     02    03    	04    05    06    07	08	09	0a	0b	0c  	0d	0e	0f
-    RotaryWidgetClass   Val 0.001  0.02  0.025  0.03  0.04  0.04  0.05	0.05	0.05	0.06	0.07	0.08	0.09	0.1	0.2 
+    RotaryWidgetClass   Val 0.005  0.005  0.025  0.05  0.05  0.05  0.05	0.05	0.05	0.05	0.05	0.05	0.05	0.1	0.2 
 AccelerationValuesEnd
-
 
 //////////////
 // Rotaries //
@@ -101,27 +99,27 @@ WidgetEnd
 ////////////////////
 
 Widget Rotary21 RotaryWidgetClass	
-    Encoder b0 17 7f 
+    Encoder b0 2F 7f 
 WidgetEnd
 
 Widget Rotary22 RotaryWidgetClass	
-    Encoder b0 17 7f 
+    Encoder b0 2F 7f 
 WidgetEnd
 
 Widget Rotary23 RotaryWidgetClass	
-    Encoder b0 17 7f 
+    Encoder b0 2F 7f 
 WidgetEnd
 
 Widget Rotary24 RotaryWidgetClass	
-    Encoder b0 17 7f 
+    Encoder b0 2F 7f 
 WidgetEnd
 
 Widget Rotary25 RotaryWidgetClass	
-    Encoder b0 17 7f
+    Encoder b0 2F 7f
 WidgetEnd
 
 Widget Rotary26 RotaryWidgetClass	
-    Encoder b0 17 7f 
+    Encoder b0 2F 7f 
 WidgetEnd
 
 
@@ -131,83 +129,83 @@ WidgetEnd
 
 
 Widget RotaryPush1			//Input
-    AnyPress b0 15 01
+    Press b0 15 01
 WidgetEnd
 
 Widget RotaryPush2			//Output
-    AnyPress b0 16 01
+    Press b0 16 01
 WidgetEnd
 
 Widget RotaryPush3			//DYNRatio
-    AnyPress b0 17 01
+    Press b0 17 01
 WidgetEnd
 
 Widget RotaryPush4			//DYNThreshold
-    AnyPress b0 18 01
+    Press b0 18 01
 WidgetEnd
 
 Widget RotaryPush5			//DYNRelease
-   AnyPress b0 19 01
+   Press b0 19 01
 WidgetEnd
 
 Widget RotaryPush6			//EXPThreshold
-    AnyPress b0 1a 01
+    Press b0 1a 01
 WidgetEnd
 
 Widget RotaryPush7			//EXPRange
-    AnyPress b0 1b 01
+    Press b0 1b 01
 WidgetEnd
 
 Widget RotaryPush8			//EXPRelease
-    AnyPress b0 1c 01
+    Press b0 1c 01
 WidgetEnd
 
 Widget RotaryPush9			//HighFilter
-    AnyPress b0 1e 01 
+    Press b0 1e 01 
 WidgetEnd
 
 Widget RotaryPush10			//LowFilter
-    AnyPress b0 1d 01 
+    Press b0 1d 01 
 WidgetEnd
 
 Widget RotaryPush11			//HFGain
-    AnyPress b0 1f 01
+    Press b0 1f 01
 WidgetEnd
 
 Widget RotaryPush12			//HFFreq
-    AnyPress b0 20 01
+    Press b0 20 01
 WidgetEnd
 
 Widget RotaryPush13			//HMFGain
-    AnyPress b0 21 01
+    Press b0 21 01
 WidgetEnd
 
 Widget RotaryPush14			//HMFFreq
-    AnyPress b0 22 01
+    Press b0 22 01
 WidgetEnd
 
 Widget RotaryPush15			//HMFQ
-    AnyPress b0 23 01
+    Press b0 23 01
 WidgetEnd
 
 Widget RotaryPush16			//LMFGain
-    AnyPress b0 24 01
+    Press b0 24 01
 WidgetEnd
 
 Widget RotaryPush17			//LMFFreq
-    AnyPress b0 25 01
+    Press b0 25 01
 WidgetEnd
 
 Widget RotaryPush18			//LMFQ
-    AnyPress b0 26 01
+    Press b0 26 01
 WidgetEnd
 
 Widget RotaryPush19			//LFFreq
-    AnyPress b0 27 01
+    Press b0 28 01
 WidgetEnd
 
 Widget RotaryPush20			//LFGain
-    AnyPress b0 28 01
+    Press b0 27 01
 WidgetEnd
 
 
@@ -217,27 +215,27 @@ WidgetEnd
 ///////////////////////////
 
 Widget RotaryPush21			//Phase
-    AnyPress b0 29 01
+    Press b0 29 01
 WidgetEnd
 
 Widget RotaryPush22			//Gate
-    AnyPress b0 2a 01 
+    Press b0 2a 01 
 WidgetEnd
 
 Widget RotaryPush23			//HFBell
-    AnyPress b0 2B 01   
+    Press b0 2B 01   
 WidgetEnd
 
 Widget RotaryPush24			//C1
-    AnyPress b0 2C 01
+    Press b0 2C 01
 WidgetEnd
 
 Widget RotaryPush25			//C2
-    AnyPress b0 2D 01
+    Press b0 2D 01
 WidgetEnd
 
 Widget RotaryPush26			//LFBell
-    AnyPress b0 2E 01   
+    Press b0 2E 01   
 WidgetEnd
 
 ////////////////////
